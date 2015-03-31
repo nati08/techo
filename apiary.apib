@@ -8,7 +8,8 @@ FORMAT: 1A
 
         {
             "destacados": "/destacados",
-            "video": "/video"
+            "video": "/video",
+            "viviendas":"/viviendas"
         }
 
 # GET /destacados
@@ -29,5 +30,13 @@ FORMAT: 1A
 + Response 200 (application/json)
 
         {
-            "url": "1",
+            "url": "https://www.youtube.com/watch?v=QlPyunEHqdI",
+            }
+            
+# GET /viviendas
+
++ Response 200 (application/json)
+
+        {
+            "cantidad": "21",
             }
