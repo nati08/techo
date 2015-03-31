@@ -7,7 +7,8 @@ FORMAT: 1A
 + Response 200 (application/json)
 
         {
-            "destacados": "/destacados"
+            "destacados": "/destacados",
+            "video": "/video"
         }
 
 # GET /destacados
@@ -21,4 +22,11 @@ FORMAT: 1A
             "visit_counter":372,
             "talent_small_image":"talent1img.png",
             "talent_user_avatar":"avatar1.png" ==> si la cuenta del talento esta asociada a una red social??
+            }
+# GET /video
+
++ Response 200 (application/json)
+
+        {
+            "url": "1",
             }
