@@ -1,0 +1,41 @@
+FORMAT: 1A
+HOST: https://app.apiary.io/techo/
+
+# Techo Api
+
+# Retrieve the Entry Point [GET]
+
++ Response 200 (application/json)
+
+        {
+            "destacados": "/destacados",
+            "viviendas": "/viviendas",
+            "video": "/video"
+        }
+
+# [/destacados]
+
++ Response 200 (application/json)
+
+        {
+            "id": "1",
+            "talent_name": "hago dibujitos",
+            "user":"brunancio",
+            "visit_counter":372,
+            "talent_small_image":"talent1img.png",
+            "talent_user_avatar":"avatar1.png" ==> si la cuenta del talento esta asociada a una red social??
+            }
+# [/viviendas]
+
++ Response 200 (application/json)
+
+        {
+            "cantidad": "11"
+            }
+# [/video]
+
++ Response 200 (application/json)
+
+        {
+            "url": "https://www.youtube.com/watch?v=QlPyunEHqdI"
+            }
