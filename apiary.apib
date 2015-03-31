@@ -8,12 +8,10 @@ HOST: https://app.apiary.io/techo/
 + Response 200 (application/json)
 
         {
-            "destacados": "/destacados",
-            "viviendas": "/viviendas",
-            "video": "/video"
+            "destacados": "/destacados"
         }
 
-# [/destacados]
+# GET /destacados
 
 + Response 200 (application/json)
 
@@ -24,18 +22,4 @@ HOST: https://app.apiary.io/techo/
             "visit_counter":372,
             "talent_small_image":"talent1img.png",
             "talent_user_avatar":"avatar1.png" ==> si la cuenta del talento esta asociada a una red social??
-            }
-# [/viviendas]
-
-+ Response 200 (application/json)
-
-        {
-            "cantidad": "11"
-            }
-# [/video]
-
-+ Response 200 (application/json)
-
-        {
-            "url": "https://www.youtube.com/watch?v=QlPyunEHqdI"
             }
